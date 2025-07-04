@@ -9,4 +9,12 @@ public class ExpirableShippableProduct extends ShippableProduct{
     public Date getExpiryDate() {
         return expiryDate;
     }
+    @Override
+    public String getName() {
+        return name;
+    }
+    @Override
+    public double getWeight() {
+        return weight;
+    }
 }

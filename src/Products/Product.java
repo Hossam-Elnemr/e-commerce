@@ -1,7 +1,7 @@
 package Products;
 
 public abstract class Product {
-    final private String name;
+    final protected String name;
     final private double price;
     static int counter = 0;
     private int quantity = 0;
