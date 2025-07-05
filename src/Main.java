@@ -25,10 +25,9 @@ public class Main {
         cart.addProduct(Cheese, 2);
         cart.addProduct(tv, 4);
         Customer c = new Customer("Hossam", 100);
-        Cart cart2 = new Cart();
-        cart2.addProduct(Cheese, 9);
         checkout(c, cart);
+//        cart2.addProduct(Cheese, 9);
 //        Cheese.increaseQuantity(10);
-        checkout(c, cart2);
+//        checkout(c, cart2);
     }
 }
